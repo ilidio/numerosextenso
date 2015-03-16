@@ -1,0 +1,4 @@
+# numerosextenso
+O motivo principal que levou à codificação deste algoritmo foi a necessidade de escrever por extenso os números (na língua portuguesa). Ou seja converter «1, 2, 3, etc» em «Um, Dois, Três, etc».
+
+O código começa por validar a variável de entrada número (que representa o número em ordinal). Verifica se é ou não um número ordinal, e caso não o seja envia a mensagem de erro “Formato Inválido” em formato string. Caso seja um número ordinal verifica se o número se encontra entre 0 e 999 decilhões. O próximo passo é dividir o número em sub-strings de tamanho 3, para atribuir o nome de cada casa, a cada número, e no final concatena-se as sub-strings. Por exemplo: 943344445 (sub-string1=943 casa dos milhões, sub-string2=344 casa dos milhares, sub-string3=445 casa das unidades) iria dar o seguinte resultado “novecentos e quarenta e três milhões e trezentos e quarenta e quatro mil e quatrocentos e quarenta e cinco euros”.
